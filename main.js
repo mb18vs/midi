@@ -42,3 +42,30 @@ function tocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
 }
 document.querySelector('.tecla_Tom').onclick = tocaSomTom;
+
+function tocaSomVento(){
+    document.querySelector('#som_tecla_vento').play();
+}
+document.querySelector('.tecla_vento').onclick =tocaSomVento;
+
+function tocaSomMar(){
+    document.querySelector('#som_tecla_mar').play();
+}
+document.querySelector('.tecla_mar').onclick = tocaSomMar;
+
+function tocaSomTrovão(){
+    document.querySelector('#som_tecla_trovão').play();
+}
+document.querySelector('.tecla_trovão').onclick = tocaSomTrovão;
+
+function tocaSomPássaros(){
+    document.querySelector('#som_tecla_pássaros').play();
+}
+document.querySelector('.tecla_pássaros').onclick = tocaSomPássaros;
+
+function tocaSomGrilos(){
+    document.querySelector('#som_tecla_grilos').play();
+}
+document.querySelector('.tecla_grilos').onclick = tocaSomGrilos;
+
+
