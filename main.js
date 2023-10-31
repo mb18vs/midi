@@ -68,4 +68,20 @@ function tocaSomGrilos(){
 }
 document.querySelector('.tecla_grilos').onclick = tocaSomGrilos;
 
+function tocaSomFolhas(){
+    document.querySelector('#som_tecla_folhas').play();
+}
+document.querySelector('.tecla_folhas').onclick = tocaSomFolhas;
+
+
+function tocaSomCavalo(){
+    document.querySelector('#som_tecla_cavalo').play();
+}
+document.querySelector('.tecla_cavalo').onclick = tocaSomCavalo;
+
+function tocaSomBaleia(){
+    document.querySelector('#som_tecla_baleia').play();
+}
+document.querySelector('.tecla_baleia').onclick = tocaSomBaleia;
+
 
